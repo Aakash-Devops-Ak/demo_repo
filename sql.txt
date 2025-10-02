@@ -1,0 +1,58 @@
+DDL- Data definition lag         Unix                                                          
+Drop                             top command to view cpu load
+Create                           it shows user, task, CPU load, memory usage.                                                                                   Create or Replace ChangeGrade (
+truncate                         mpstat - system display usage for each processor.										p_sID enrolling.sID%type
+alert                            sar command to shoe CPU utilization.												p_classID enrolling.classID%type )
+                                 sar -u 5															AS
+DML- data manipulication lag     -u option displays CPU usage. 5 indicates it should display 5 sec								p_id_enrolled NUMBER;
+select                           iostat- system displays averge CPU USAGE. It also display									BEGIN
+insert                           input/output load														SELECT sID into p_id_enrolled FROM Enrolling WHERE sID = p_sID
+delete   																			AND classID = p_classID
+update                           create procedure select allcustomers												IF p_sID = p_id_enrolled THEN
+                                 as select * from customer													update Enrolling
+DCL- data control lag            Go;																set GRADE = 'A'
+grand                            EXEC select allcustomer;													dbms_output.put_line('Student grade has been changed.')
+revoke																				else
+																				dbms_output.put_line('Student record does not exist.')
+TCL- transaction control lag     Declare s1 cursor for select * from customer 											END IF;
+Commit                           open s1 															end;
+rollback                         fecth frist from s1, fetch last from s1, fetch next from s1									/
+save point                        fetch prior from s1, fetch absolute 7 from s1
+                                 fetch relative -2 from s1
+
+Use database                     first- used to show first row, last- used to show last row 
+Create table Student(            next- used to show data in a froward direction.
+Name varchar(10)                 prior- used to show data in backward direction.
+city varchar(10)                 absolute n- used to show exact nth row.
+age int)                         relative n- used to show data in an increment way as well as          
+insert into Student values('','','')  decrement way
+
+>- greater than                  select first_name, last_name,salary
+<- lesser than                   Rank () over (order by salary) salary_rank from employees;
+
+Distinct- if dupilicates values eruntha 
+it will show only one value
+
+Select distinct name from student
+Select * from student,fees where student 
+inner join fees on                                     emp tatl id name dep no saraay 
+                                                        dep dap anme dep no. 
+student.rollno = fees.studentid                    select * from emp, dep where emp name inner join
+                                                   dep on emp. id name = dep dep name and where sar>= 1000:
+
+teradata 
+uac 
+orchestation
+bigbacket
+
+package,funcation,cursore,procdure
+differrence bw funcation and cursore
+trigger,metlaireized view
+external tables
+sql losder concepts
+rank and ronam
+table partiation 
+
+4,942
+-2,677
+1,814
